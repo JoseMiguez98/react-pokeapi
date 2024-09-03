@@ -70,22 +70,6 @@ La aplicación estará disponible en `http://localhost:4173`.
 
 La aplicación estará disponible en `http://localhost:5173`.
 
-### Levantar la App en Modo Producción con Docker
-
-1. Construye la imagen Docker para producción:
-
-   ```bash
-   docker build -f Dockerfile.prod -t react-pokeapi-prod .
-   ```
-
-2. Corre el contenedor:
-
-   ```bash
-   docker run -p 4173:4173 react-pokeapi-prod
-   ```
-
-La aplicación estará disponible en `http://localhost:4173`.
-
 ## Principales Librerías Usadas
 
 El Proyecto fue construido con las siguientes librerias:
